@@ -1,0 +1,56 @@
+body {
+  background: url(https://1.bp.blogspot.com/-R-OIqfZ-25o/X0Vpjwth0zI/AAAAAAAAVI8/yaZQu4DUDL8PbQn10nDGh0Jiuo8GYkbrACLcBGAsYHQ/s580/0009.gif);
+  color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Quicksand';
+  padding-top: 5%;
+  word-wrap: break-word;
+}
+
+.logo {
+  width: 250px;
+  height: 250px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.WalletInfo {
+  width: 500px;
+}
+
+.Block {
+  border: 1px solid #fff;
+  padding: 10%;
+  margin: 2%;
+}
+
+.Transaction {
+  padding: 5%;
+}
+
+.Blockchain,
+.ConductTransaction,
+.TransactionPool {
+  margin: 10%;
+  margin-top: 5%;
+}
+
+a,
+a:hover {
+  color: #00ff40;
+  text-decoration: underline;
+}
+
+input,
+button {
+  color: black;
+}
