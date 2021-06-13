@@ -21,7 +21,7 @@ function ToggleTransactionDisplay({ block }) {
           </div>
         ))}
         <br />
-        <Button variant='danger' size='sm' onClick={ToggleTransactionDisplay}>
+        <Button variant='success' size='sm' onClick={ToggleTransactionDisplay}>
           Show Less
         </Button>
       </div>
@@ -31,7 +31,7 @@ function ToggleTransactionDisplay({ block }) {
   return (
     <div>
       <br />
-      <Button variant='danger' size='sm' onClick={ToggleTransactionDisplay}>
+      <Button variant='success' size='sm' onClick={ToggleTransactionDisplay}>
         Show More
       </Button>
     </div>
